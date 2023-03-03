@@ -8,6 +8,10 @@
             <h1>Webové stránky na mieru</h1>
         </div>
     </section>
+    <?php
+      include('partials/quote.php');
+    ?>
+    <!--
     <section class="container">
       <div class="row">
         <div class="col-100 text-center">
@@ -15,6 +19,7 @@
         </div>
       </div>
     </section>
+    -->
     <section class="container">
       <div class="row">
         <div class="col-50">
