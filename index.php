@@ -3,23 +3,10 @@
     include('partials/header.php');
   ?>
   <main>
-    <section class="banner">
-        <div class="container text-white">
-            <h1>Webové stránky na mieru</h1>
-        </div>
-    </section>
     <?php
+      include('partials/banner.php');
       include('partials/quote.php');
     ?>
-    <!--
-    <section class="container">
-      <div class="row">
-        <div class="col-100 text-center">
-            <p><strong><em>Elit culpa id mollit irure sit. Ex ut et ea esse culpa officia ea incididunt elit velit veniam qui. Mollit deserunt culpa incididunt laborum commodo in culpa.</em></strong></p>
-        </div>
-      </div>
-    </section>
-    -->
     <section class="container">
       <div class="row">
         <div class="col-50">

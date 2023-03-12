@@ -2,12 +2,8 @@
 include('partials/header.php');
 ?>
   <main>
-    <section class="banner">
-      <div class="container text-white">
-        <h1>Kontakt</h1>
-      </div>
-    </section>
     <?php
+      include('partials/banner.php');
       include('partials/quote.php');
     ?>
     <section class="container">
@@ -20,9 +16,11 @@ include('partials/header.php');
         </div>
         <div class="col-50 text-right">
           <h3>Napíšte nám</h3>
-         <?php
-          include('partials/form.php');
-         ?>
+          <?php
+            include('partials/form.php');
+          ?>
+            
+          </div>
         </div>
       </div>
     </section>

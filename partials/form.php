@@ -4,7 +4,5 @@
             <textarea name="" placeholder="Vaša správa" id="sprava"></textarea><br>
             <input type="checkbox" name="" id="" required><label for=""> Súhlasím so spracovaním osobných údajov.</label><br>
             <input type="submit" value="Odoslať">
-          </form>
-          <div id="error" class="text-red">
-            
-          </div>
+</form>
+<div id="error" class="text-red">
